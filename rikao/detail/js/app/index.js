@@ -1,0 +1,1 @@
+require(["jquery","util"],function(o,n){o.ajax({url:"/api",dataType:"json",success:function(o){console.log(o)},error:function(o){console.log(o)}})});
